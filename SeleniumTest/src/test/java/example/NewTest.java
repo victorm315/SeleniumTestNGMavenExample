@@ -22,7 +22,7 @@ public class NewTest {
   }
   @BeforeTest
   public void beforeTest() {
-	 System.setProperty("webdriver.chrome.driver", "/usr/local/Cellar/chromedriver/2.32/bin/chromedriver");
+	 System.setProperty("webdriver.chrome.driver", "/usr/local/bin/chromedriver");
 	 driver = new ChromeDriver();}
 
   @AfterTest
